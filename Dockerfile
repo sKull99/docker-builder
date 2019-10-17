@@ -10,8 +10,8 @@ RUN apt-get -qq update && apt-get install --no-install-recommends -qqy \
     unzip \
     wget
 
-RUN wget https://releases.hashicorp.com/packer/1.3.1/packer_1.4.4_linux_amd64.zip
-RUN wget https://releases.hashicorp.com/terraform/0.11.8/terraform_0.12.10_linux_amd64.zip
+RUN wget https://releases.hashicorp.com/packer/1.4.4/packer_1.4.4_freebsd_amd64.zip
+RUN wget https://releases.hashicorp.com/terraform/0.12.10/terraform_0.12.10_linux_amd64.zip
 
 RUN unzip packer_1.4.4_linux_amd64.zip
 RUN unzip terraform_0.12.10_linux_amd64.zip
